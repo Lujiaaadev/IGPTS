@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# IGP Transaction System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+A web-based system for managing Income Generating Projects (IGP) transactions at CvSU. Built with React and Material-UI.
 
-## Available Scripts
+## Features
+- **Dashboard Overview**
+  - Monthly income visualization using charts
+  - Department-wise IGP analytics
+  - Real-time trend analysis
+- **Department Management**
+  - Individual department pages
+  - Transaction tracking
+  - Document management
+  - Search and filter capabilities
+- **Transaction Management**
+  - Add and track remittances
+  - Upload supporting documents
+  - Generate financial reports
+  - Search functionality
 
-In the project directory, you can run:
+## Tech Stack
+- React 19.0.0
+- Material-UI 6.4.6
+- React Router DOM 7.2.0
+- Recharts 2.15.1
+- Tailwind CSS 4.0.9
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- Node.js (16.x or higher)
+- npm (8.x or higher)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
+```sh
+# Clone the repository
+git clone [your-repository-url]
 
-### `npm test`
+# Install dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Start the development server
+npm start
+```
 
-### `npm run build`
+The application will open at [http://localhost:3000](http://localhost:3000)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Available Scripts
+- `npm start` - Runs the development server
+- `npm test` - Executes the test suite
+- `npm run build` - Creates a production build
+- `npm run eject` - Ejects from Create React App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
+```
+igpts/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Dashboard.js
+│   │   ├── DepartmentPage.js
+│   │   ├── MainMenu.js
+│   │   └── Navbar.js
+│   ├── App.js
+│   └── index.js
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### `npm run eject`
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+Your Name - [dev.lujiaa@gmail.com](mailto:dev.lujiaa@gmail.com)
+Project Link: [https://github.com/Lujiaaadev/IGPTS](https://github.com/Lujiaaadev/IGPTS)

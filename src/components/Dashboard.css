@@ -1,0 +1,23 @@
+/* src/components/Dashboard.css */
+.dashboard-header {
+    margin-bottom: 2rem;
+  }
+  
+  .chart-container {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .department-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .search-field {
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }

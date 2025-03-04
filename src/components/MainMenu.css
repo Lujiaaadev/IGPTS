@@ -1,0 +1,25 @@
+.transaction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .search-filter {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .table-container {
+    margin-top: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .form-dialog {
+    padding: 20px;
+  }
+  
+  .form-field {
+    margin-bottom: 1rem;
+  }
